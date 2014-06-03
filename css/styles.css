@@ -1,0 +1,73 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Anonymous Pro", "Lucida Console", Monaco, monospace; 
+	margin: 50px auto;
+	text-align: center;
+	width: 940px;
+}
+
+button.toggle {
+	border: 0 none;
+	background: none;
+	font-size: 64px;
+	-webkit-appearance: none;
+}
+
+button.toggle:focus {
+	outline: none;
+} 
+
+button.toggle:hover {
+	opacity: .8;
+}
+
+@media ( max-width: 979px ) {
+	body {
+		width: 90%;
+	}
+} 
+
+@font-face {
+	font-family: 'yun';
+	src:url('../fonts/yun.eot?4sd60z');
+	src:url('../fonts/yun.eot?#iefix4sd60z') format('embedded-opentype'),
+		url('../fonts/yun.woff?4sd60z') format('woff'),
+		url('../fonts/yun.ttf?4sd60z') format('truetype'),
+		url('../fonts/yun.svg?4sd60z#yun') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icomoon-yun-"], [class*=" icomoon-yun-"] {
+	font-family: 'yun';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-yun-square:before {
+	content: "\f0c8";
+}
+.icomoon-yun-caret-down:before {
+	content: "\f0d7";
+}
+.icomoon-yun-caret-up:before {
+	content: "\f0d8";
+}
+.icomoon-yun-caret-left:before {
+	content: "\f0d9";
+}
+.icomoon-yun-caret-right:before {
+	content: "\f0da";
+}
