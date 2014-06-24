@@ -10,17 +10,29 @@
 requirejs.config({
     paths: {
         'jquery': 'lib/jquery.min',
-        'toggle_led': 'yun/toggle_led'
+        'keypress': 'lib/keypress',
+        'ctrl': 'yun/ctrl',
+        'toggle_led': 'yun/toggle_led',
+        'cut_up': 'yun/cut_up'
     },
     shim: {
+        // 'keypress': {
+        //     exports: 'keypress'
+        // }
     }
 });
 
 requirejs([
         'jquery',
-        'toggle_led'
+        'keypress',
+        'ctrl',
+        'toggle_led',
+        'cut_up'
     ], function (
         $,
-        toggle_led
+        keypress,
+        ctrl,
+        toggle_led,
+        cut_up
     ){
 });
